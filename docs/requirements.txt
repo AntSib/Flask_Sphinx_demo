@@ -1,2 +1,1 @@
-furo
-sphinx-autodoc-typehints
+furo==2021.11.16

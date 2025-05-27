@@ -10,7 +10,7 @@ def create_app():
 
     with app.app_context():
         from app.models import currency
-        # db.create_all()
+        db.create_all()
 
     from app.controllers.routes import bp
     app.register_blueprint(bp)
